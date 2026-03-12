@@ -36,27 +36,35 @@ jobs:
         run: |
           VERSION=${GITHUB_REF_NAME}
 
-          rsync -av --delete \
-          --exclude '.git' \
-          --exclude '.github' \
-          ./ svn/trunk/
+          echo "Deploying version $VERSION"
 
-          rsync -av ./assets/ svn/assets/
+          # Copy plugin files to trunk
+          rsync -av --delete \
+            --exclude '.git*' \
+            --exclude '.github' \
+            --exclude 'wp-assets' \
+            ./ svn/trunk/
+
+          # Copy WordPress plugin directory assets
+          rsync -av ./wp-assets/ svn/assets/
 
           cd svn
 
           svn add --force . --auto-props --parents --depth infinity -q
+          svn status | grep '^!' | sed 's/^! *//' | xargs -r svn rm
 
-          svn commit -m "Deploy version $VERSION" \
-          --username "$SVN_USERNAME" \
-          --password "$SVN_PASSWORD" \
-          --no-auth-cache \
-          --non-interactive
+          echo "Committing trunk changes..."
+          svn commit -m "Deploy version $VERSION to trunk" \
+            --username "$SVN_USERNAME" \
+            --password "$SVN_PASSWORD" \
+            --no-auth-cache \
+            --non-interactive
 
+          echo "Creating tag $VERSION..."
           svn copy trunk tags/$VERSION
 
           svn commit -m "Tagging version $VERSION" \
-          --username "$SVN_USERNAME" \
-          --password "$SVN_PASSWORD" \
-          --no-auth-cache \
-          --non-interactive
+            --username "$SVN_USERNAME" \
+            --password "$SVN_PASSWORD" \
+            --no-auth-cache \
+            --non-interactive
