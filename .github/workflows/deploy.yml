@@ -3,34 +3,19 @@ name: Deploy to WordPress.org
 on:
   push:
     tags:
-      - "*"
+      - '*'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Debug environment
-        run: |
-          if [ -z "$SVN_USERNAME" ]; then
-            echo "SVN_USERNAME is EMPTY"
-          else
-            echo "SVN_USERNAME exists"
-          fi
-
-          if [ -z "$SVN_PASSWORD" ]; then
-            echo "SVN_PASSWORD is EMPTY"
-          else
-            echo "SVN_PASSWORD exists"
-          fi
-        env:
-          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-
-      - name: Deploy plugin
+      - name: Deploy to WordPress.org
         uses: 10up/action-wordpress-plugin-deploy@stable
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: dashclean
