@@ -30,6 +30,9 @@ jobs:
           --non-interactive
 
       - name: Deploy plugin
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         run: |
           VERSION=${GITHUB_REF_NAME}
 
