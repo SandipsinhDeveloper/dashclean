@@ -1,0 +1,449 @@
+# Copyright (C) 2026 Sandipsinh Chauhan
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: DashClean 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dashclean\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-11T07:33:20+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Custom PHP Parser\n"
+"X-Domain: dashclean\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "DashClean Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Dashboard"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Admin Bar"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Notices"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Access"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Speed"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Presets"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Data"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Secondary navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Enable %s Module"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "This module is currently disabled. Toggle the switch above to see available options."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Global Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Hide ALL Dashboard Widgets"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Completely clears the WordPress dashboard area for all selected roles."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Specific Widgets to Hide"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Selectively hide specific dashboard widgets. Only widgets currently active on your site are shown."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Activity"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "At a Glance"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Quick Draft"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "WordPress Events and News"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Site Health Status"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Interactive Sidebar Map"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "All active menu items are detected dynamically. Select any top-level menu or specific submenu items to hide."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Configure Submenus"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Live Toolbar Map"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Select nodes to hide from the WordPress Toolbar (Admin Bar). Active items are detected dynamically."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "WordPress Logo"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Updates"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "New Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Customize"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Search"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Hide All Admin Notices"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Keep Critical Error Notices (Recommended)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Frontend Optimizations"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Disable Emojis (CSS & JS)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Disable Dashicons for Logged-out Guests"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Disable Gutenberg Block Editor Styles"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Remove jQuery Migrate (Frontend Only)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Header Cleanup"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Remove Header Junk (WP Version, shortlinks, RSD, REST API links)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Dynamic Asset Management"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "The items below are detected from your active theme and plugins. Select any asset to dequeue it from the frontend."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Please visit your site frontend once to help DashClean discover active scripts and styles."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Granular Access Control"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Select which roles and specific users are affected by DashClean cleaning rules."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Loading users..."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "No users found in this role."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "System-Wide Presets"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Enable this to allow configuration templates to govern your site setup."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Are you sure you want to reset all settings to defaults? This cannot be undone."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Purge All Configurations"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Name your setup..."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-assets.php
+msgid "Snapshot Current State"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Currently Active"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Clean Dashboard"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Sidebar Cleanup"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Hide Admin Notices"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Speed Optimizations"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Admin Bar Cleanup"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Deactivate Preset"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Apply Template"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Delete this custom preset from your library?"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Export Configuration"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Download all settings and custom presets into a single JSON file. Perfect for migrations or regular backups."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Generate Backup (.json)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Import Configuration"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Restore settings from a previous backup. This will overwrite your current configuration."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Start Restoration"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Unauthorized"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Role missing"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Preset name is required"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Preset saved successfully!"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Failed to save preset."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Invalid upload."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Invalid file type."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "No temporary file found."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Settings imported successfully."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "No file uploaded."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Settings saved successfully."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Preset deleted."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Failed to delete preset."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "All settings reset to defaults."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Failed to reset settings."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Preset applied successfully."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-admin-menu.php
+msgid "Failed to apply preset."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-assets.php
+msgid "Error loading users."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-assets.php
+msgid "Network error."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-assets.php
+msgid "Please enter a name for your preset."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-assets.php
+msgid "Saving..."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/admin/class-assets.php
+msgid "Network error while saving preset."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/generate-pot.php
+msgid "string"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "Insufficient permissions."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "Temporary file not found or invalid upload."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "Temporary file is not readable."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "Could not initialize filesystem API."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "Could not read the uploaded file contents."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "JSON Decode Error: "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "Invalid or incompatible settings file."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-data-handler.php
+msgid "No settings found in the file."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-presets.php
+msgid "Client Mode"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-presets.php
+msgid "Maximum cleaning for non-technical clients. Hides almost everything distracting."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-presets.php
+msgid "Developer Mode"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-presets.php
+msgid "Optimized for coders. Removes visual bloat but keeps critical tools."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/core/class-presets.php
+msgid "Custom preset created on %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\dashclean/includes/modules/class-menu-cleaner.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
