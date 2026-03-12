@@ -1,4 +1,4 @@
-name: Deploy to WordPress.org
+name: Deploy to WordPress.org SVN
 
 on:
   push:
@@ -9,14 +9,28 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    env:
-      SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-      SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-      SLUG: dashclean
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy to WordPress.org
-        uses: 10up/action-wordpress-plugin-deploy@stable
+      - name: Install SVN
+        run: sudo apt-get update && sudo apt-get install -y subversion rsync
+
+      - name: Deploy to WordPress SVN
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+        run: |
+          echo "Checking out WordPress SVN repository..."
+          svn checkout https://plugins.svn.wordpress.org/dashclean svn
+
+          echo "Copy plugin files to trunk..."
+          rsync -av --exclude '.git' --exclude '.github' ./ svn/trunk/
+
+          cd svn
+
+          echo "Adding new files..."
+          svn add --force . --auto-props --parents --depth infinity -q
+
+          echo "Committing to WordPress.org..."
+          svn commit -m "Deploy version ${GITHUB_REF_NAME}" --username "$SVN_USERNAME" --password "$SVN_PASSWORD" --no-auth-cache --non-interactive
