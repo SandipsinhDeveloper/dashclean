@@ -1,4 +1,4 @@
-name: Deploy to WordPress.org SVN
+name: Deploy WordPress Plugin
 
 on:
   push:
@@ -14,23 +14,46 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install SVN
-        run: sudo apt-get update && sudo apt-get install -y subversion rsync
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y subversion rsync
 
-      - name: Deploy to WordPress SVN
+      - name: Checkout WordPress SVN
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         run: |
-          echo "Checking out WordPress SVN repository..."
-          svn checkout https://plugins.svn.wordpress.org/dashclean svn
+          svn checkout https://plugins.svn.wordpress.org/dashclean svn \
+          --username "$SVN_USERNAME" \
+          --password "$SVN_PASSWORD" \
+          --no-auth-cache \
+          --non-interactive
 
-          echo "Copy plugin files to trunk..."
-          rsync -av --exclude '.git' --exclude '.github' ./ svn/trunk/
+      - name: Deploy plugin
+        run: |
+          VERSION=${GITHUB_REF_NAME}
+
+          rsync -av --delete \
+          --exclude '.git' \
+          --exclude '.github' \
+          ./ svn/trunk/
+
+          rsync -av ./assets/ svn/assets/
 
           cd svn
 
-          echo "Adding new files..."
           svn add --force . --auto-props --parents --depth infinity -q
 
-          echo "Committing to WordPress.org..."
-          svn commit -m "Deploy version ${GITHUB_REF_NAME}" --username "$SVN_USERNAME" --password "$SVN_PASSWORD" --no-auth-cache --non-interactive
+          svn commit -m "Deploy version $VERSION" \
+          --username "$SVN_USERNAME" \
+          --password "$SVN_PASSWORD" \
+          --no-auth-cache \
+          --non-interactive
+
+          svn copy trunk tags/$VERSION
+
+          svn commit -m "Tagging version $VERSION" \
+          --username "$SVN_USERNAME" \
+          --password "$SVN_PASSWORD" \
+          --no-auth-cache \
+          --non-interactive
